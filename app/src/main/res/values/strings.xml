@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pantalla3</string>
+
+    <string name="Background">Fondo de Pantalla</string>
+    <string name="action_settings">Settings</string>
+    <string name="Titulo">ESTADÍSTICAS</string>
+    <string name="Retroceso">Retroceder página</string>
+    <string name="Volumen">Volumen</string>
+</resources>

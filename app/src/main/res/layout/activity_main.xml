@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/Fondo"
+        android:id="@+id/Background"
+        android:contentDescription="@string/Background"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/Background"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:text="@string/Titulo"
+        android:textSize="40dp"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_purple"
+
+        />
+
+       <ImageButton
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:id="@+id/Retroceso"
+           android:src="@drawable/undo"
+           android:layout_alignLeft="@id/Background"
+           android:layout_alignBottom="@id/Background"
+           android:contentDescription="@string/Retroceso"
+           />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/Volumen"
+        android:layout_alignBottom="@id/Background"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/volumen"
+        android:contentDescription="@string/Volumen"
+        />
+
+
+
+
+</RelativeLayout>
